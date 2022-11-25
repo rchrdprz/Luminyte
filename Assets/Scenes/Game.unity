@@ -1297,6 +1297,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8414588414611918025, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 801299010}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
 --- !u!1001 &278723121
@@ -8947,6 +8951,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8414588414611918025, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 801299010}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
 --- !u!1 &1527023392
@@ -10863,6 +10871,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8414588414611918025, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 801299010}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
 --- !u!4 &1822735186 stripped
@@ -13388,6 +13400,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8414588414611918025, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 801299010}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14ffc64b52227f949adeb9371ec3fde8, type: 3}
 --- !u!1001 &5192188382037229742
@@ -13515,6 +13531,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527023393}
     m_Modifications:
+    - target: {fileID: 1080115761408462079, guid: d0da77f5581f5cf4c8c1c4dead67085f, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 801299010}
+    - target: {fileID: 1080115761408462079, guid: d0da77f5581f5cf4c8c1c4dead67085f, type: 3}
+      propertyPath: _berryAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1080115761408462079, guid: d0da77f5581f5cf4c8c1c4dead67085f, type: 3}
+      propertyPath: _flowerAmount
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6184901846569566480, guid: d0da77f5581f5cf4c8c1c4dead67085f, type: 3}
       propertyPath: m_Name
       value: Door_Inactive

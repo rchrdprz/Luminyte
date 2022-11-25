@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6184901846569566481}
   - component: {fileID: 6184901846569566492}
   - component: {fileID: 6184901846569566495}
+  - component: {fileID: 1080115761408462079}
   m_Layer: 0
   m_Name: Door_Inactive
   m_TagString: Untagged
@@ -213,3 +214,21 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!114 &1080115761408462079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184901846569566480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df80620b0561541e3943c4efc048d88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _flowerAmount: 1
+  _berryAmount: 1
+  _nextsprite: {fileID: 2073319718, guid: 2d2ed074b5de4834080fddc879199c92, type: 3}
+  _nextTopSprite: {fileID: -356505829, guid: 2d2ed074b5de4834080fddc879199c92, type: 3}
+  _topRenderer: {fileID: 6184901845860495757}
+  _inventory: {fileID: 0}

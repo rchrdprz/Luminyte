@@ -1,11 +1,10 @@
-using UnityEngine.UI;
 using UnityEngine;
 
 public class ItemCollect : MonoBehaviour
 {
     [SerializeField] protected Sprite _nextSprite;
     [SerializeField] protected ItemInventory _inventory;
-    [SerializeField] private Material _material;
+    [SerializeField] protected Material _material;
 
     private SpriteRenderer _renderer;
     private BoxCollider2D _collider;

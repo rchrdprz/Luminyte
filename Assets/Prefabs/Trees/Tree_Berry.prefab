@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4841504906578467182}
   - component: {fileID: 4841504906578466962}
   - component: {fileID: 4841504906578467180}
+  - component: {fileID: 8414588414611918025}
   m_Layer: 0
   m_Name: Tree_Berry
   m_TagString: Untagged
@@ -129,6 +130,22 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!114 &8414588414611918025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841504906578467177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa82a4c6ed3ca83469898254177ee977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nextSprite: {fileID: 10010365, guid: e30e82278f902bd4eabf328c98a3b617, type: 3}
+  _inventory: {fileID: 0}
+  _material: {fileID: 2100000, guid: 3f80e3eb48ea8d341bd3aa7bb25c197a, type: 2}
+  _topRenderer: {fileID: 4841504907700378102}
 --- !u!1 &4841504907700378096
 GameObject:
   m_ObjectHideFlags: 0
