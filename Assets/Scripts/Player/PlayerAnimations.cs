@@ -24,5 +24,4 @@ public class PlayerAnimations : MonoBehaviour
         _anim.SetInteger("LookY", direction.y);
         _anim.SetInteger("LookX", Mathf.Abs(direction.x));
     }
-
 }

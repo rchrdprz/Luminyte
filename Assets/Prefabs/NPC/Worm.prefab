@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 936337549415744577}
   - component: {fileID: 936337549415744578}
   m_Layer: 7
-  m_Name: Graphics
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.01764059}
   serializedVersion: 2
-  m_Radius: 0.45
+  m_Radius: 0.55
 --- !u!195 &936337549614353112
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -167,7 +167,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 2.5
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -192,7 +192,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  Graphics: {fileID: 936337550124277112}
+  IdleMaterial: {fileID: 2100000, guid: eb0b255094550924f9a1a0f5df9e149b, type: 2}
+  ChaseMaterial: {fileID: 2100000, guid: 782a0b19738d3df449c240814cf46b75, type: 2}
+  SearchMaterial: {fileID: 2100000, guid: a073d6c21d34bca4285fc63bd61e231d, type: 2}
+  Rotator: {fileID: 936337550124277112}
+  Sprite: {fileID: 936337549415744577}
   Agent: {fileID: 0}
 --- !u!82 &7350248123859533115
 AudioSource:
@@ -206,7 +210,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fdce3926aaf611b4baa4071149794165, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0

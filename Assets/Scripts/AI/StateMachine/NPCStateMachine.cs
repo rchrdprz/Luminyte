@@ -7,8 +7,17 @@ public class NPCStateMachine : StateMachine
     [HideInInspector] public ChaseState ChaseState;
     [HideInInspector] public SearchState SearchState;
 
+    [Header("Scene References")]
     public Transform Player;
-    public Transform Graphics;
+
+    [Header("State Materials")]
+    public Material IdleMaterial;
+    public Material ChaseMaterial;
+    public Material SearchMaterial;
+
+    [Header("Prefab References")]
+    public Transform Rotator;
+    public SpriteRenderer Sprite;
 
     public Vector3 StartLoc { get; private set; }
 

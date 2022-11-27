@@ -8,6 +8,7 @@ public class PlayerAudio : MonoBehaviour
 
     public void PlayStepOne()
     {
+        if (_moveOne.isPlaying) return;
         _moveOne.Stop();
         _moveOne.Play();
     }

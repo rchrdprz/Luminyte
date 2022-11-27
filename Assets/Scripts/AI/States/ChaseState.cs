@@ -18,6 +18,8 @@ public class ChaseState : State
     {
         base.Enter();
 
+        //_npcStateMachine.Sprite.material = _npcStateMachine.ChaseMaterial;
+
         _agent = _npcStateMachine.Agent;
         _player = _npcStateMachine.Player;
 
@@ -55,6 +57,6 @@ public class ChaseState : State
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         Quaternion rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
-        _npcStateMachine.Graphics.rotation = Quaternion.Lerp(_npcStateMachine.Graphics.rotation, rotation, 0.025f);
+        _npcStateMachine.Rotator.rotation = Quaternion.Lerp(_npcStateMachine.Rotator.rotation, rotation, 0.025f);
     }
 }

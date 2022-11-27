@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class ItemCollect : MonoBehaviour
 {
-    [SerializeField] protected Sprite _nextSprite;
+    [Header("Scene References")]
     [SerializeField] protected ItemInventory _inventory;
+
+    [Header("Prefab References")]
     [SerializeField] protected Material _material;
+    [SerializeField] protected Sprite _nextSprite;
 
     private SpriteRenderer _renderer;
     private BoxCollider2D _collider;

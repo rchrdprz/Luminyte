@@ -26,6 +26,8 @@ public class IdleState : State
     {
         base.Enter();
 
+        //_npcStateMachine.Sprite.material = _npcStateMachine.IdleMaterial;
+
         _agent = _npcStateMachine.Agent;
         _player = _npcStateMachine.Player;
         _startLoc = _npcStateMachine.StartLoc;
@@ -61,7 +63,6 @@ public class IdleState : State
 
     private void Transition()
     {
-
         float _distance = Vector2.Distance(_agent.transform.position, _player.position);
         if (_distance > _viewDst) return;
 
@@ -76,7 +77,7 @@ public class IdleState : State
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
        
         Quaternion rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
-        _npcStateMachine.Graphics.rotation = Quaternion.Lerp(_npcStateMachine.Graphics.rotation, rotation, 0.025f);
+        _npcStateMachine.Rotator.rotation = Quaternion.Lerp(_npcStateMachine.Rotator.rotation, rotation, 0.025f);
     }
 
     private void GetPosition()

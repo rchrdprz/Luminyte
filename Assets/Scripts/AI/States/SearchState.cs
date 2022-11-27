@@ -32,13 +32,15 @@ public class SearchState : State
     {
         base.Enter();
 
+        //_npcStateMachine.Sprite.material = _npcStateMachine.SearchMaterial;
+
         _agent = _npcStateMachine.Agent;
         _player = _npcStateMachine.Player;
 
         _lastKnownLoc = _agent.transform.position;
         _waitTimer = Random.Range(_delayMin, _delayMax);
 
-        _searchTimes = Random.Range(1, 5);
+        _searchTimes = Random.Range(2, 5);
         _isFirstSearch = true;
     }
 
@@ -61,7 +63,7 @@ public class SearchState : State
         }
 
         Vector2 direction = _player.position - _agent.transform.position;
-        RaycastHit2D hit = Physics2D.Raycast(_agent.transform.position, direction, 15f, ~(1 << 7));
+        RaycastHit2D hit = Physics2D.Raycast(_agent.transform.position, direction, 20f, ~(1 << 7));
 
         if (hit == true && hit.transform.TryGetComponent<PlayerMovement>(out _))
         {
@@ -96,7 +98,7 @@ public class SearchState : State
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
             Quaternion rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
-            _npcStateMachine.Graphics.rotation = Quaternion.Lerp(_npcStateMachine.Graphics.rotation, rotation, 0.025f);
+            _npcStateMachine.Rotator.rotation = Quaternion.Lerp(_npcStateMachine.Rotator.rotation, rotation, 0.025f);
         }
         else
         {
@@ -109,7 +111,7 @@ public class SearchState : State
 
             float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
             Quaternion rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
-            _npcStateMachine.Graphics.rotation = Quaternion.Lerp(_npcStateMachine.Graphics.rotation, rotation, 0.025f);
+            _npcStateMachine.Rotator.rotation = Quaternion.Lerp(_npcStateMachine.Rotator.rotation, rotation, 0.025f);
         }
     }
 
