@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class StateMachine : MonoBehaviour
 {
-    private State _currentState;
+    private SeekerState _currentState;
 
-    public virtual State InitialState => null;
+    public virtual SeekerState InitialState => null;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class StateMachine : MonoBehaviour
             _currentState?.Update();
     }
 
-    public void ChangeState(State newState)
+    public void ChangeState(SeekerState newState)
     {
         _currentState?.Exit();
 
@@ -26,7 +26,7 @@ public class StateMachine : MonoBehaviour
         _currentState?.Enter();
     }
 
-    protected virtual State GetInitialState()
+    protected virtual SeekerState GetInitialState()
     {
         return null;
     }

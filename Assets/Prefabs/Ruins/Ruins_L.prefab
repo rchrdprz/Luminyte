@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7024966806485800185}
   - component: {fileID: 7024966806485799686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 7024966806936544717}
   - component: {fileID: 7024966806936544716}
   - component: {fileID: 7024966806936544718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ruins_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

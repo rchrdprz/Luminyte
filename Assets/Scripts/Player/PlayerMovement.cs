@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
     private void Rotation()
     {
         Vector2 direction = _mousePos - _rb.position;
-        float angle = Vector2.SignedAngle(_parent.up, direction);
+        float angle = Vector2.SignedAngle(transform.up, direction);
 
         if (angle < 45 && angle > - 45)
         {   // up //

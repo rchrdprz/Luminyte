@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 677961290097316393}
   - component: {fileID: 677961290097316374}
   - component: {fileID: 677961290097316372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ruins_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677961290788553915}
   - component: {fileID: 677961290788553914}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}

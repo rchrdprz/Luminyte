@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4681088343752018750}
   - component: {fileID: 2748445651335713943}
   - component: {fileID: 8673821694603180206}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 60443690945308901}
   - component: {fileID: 5935555249286821986}
   - component: {fileID: 1727137184287729220}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Interact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 8980966205467865684}
   - component: {fileID: 5604677680103241800}
   - component: {fileID: 5889681059641356361}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 7726824976886306126}
   - component: {fileID: 4931979340477182939}
   - component: {fileID: 7399312067511524449}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6738171616761769356}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Interact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 5365655779084410815}
   - component: {fileID: 2465002575633402705}
   - component: {fileID: 3753903204608233160}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Branch Berry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 1477860392778455338}
   - component: {fileID: 2441640840110692879}
   - component: {fileID: 6356400120183332510}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 8395605075219667346}
   - component: {fileID: 8231285005127480110}
   - component: {fileID: 5576594846546648351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inventory: {fileID: 0}
-  _endGame: {fileID: 0}
+  _gameWon: {fileID: 0}
   _nextsprite: {fileID: -1852549686, guid: c7a82f8e208615747893ec361db569ab, type: 3}
   _nextBottomSprite: {fileID: -788292761, guid: c7a82f8e208615747893ec361db569ab, type: 3}
   _bottomRenderer: {fileID: 6184901846569566481}
@@ -910,7 +910,7 @@ GameObject:
   - component: {fileID: 6184901846569566481}
   - component: {fileID: 6184901846569566492}
   - component: {fileID: 6184901846569566495}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Inactive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1040,7 @@ GameObject:
   - component: {fileID: 5916853355651161587}
   - component: {fileID: 2358168551140318231}
   - component: {fileID: 3317076415239424667}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 1520115575065741972}
   - component: {fileID: 2022001889650049970}
   - component: {fileID: 4486482107474875202}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 4832371498970553283}
   - component: {fileID: 8482654579912796667}
   - component: {fileID: 9159077013725055655}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1365,7 +1365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929832770112257819}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Fuel Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,7 +1407,7 @@ GameObject:
   - component: {fileID: 3826197736347757929}
   - component: {fileID: 5083448339465065298}
   - component: {fileID: 2715300393638993067}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Glow Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1485,7 +1485,7 @@ GameObject:
   - component: {fileID: 1929389118799673113}
   - component: {fileID: 4549076033451751128}
   - component: {fileID: 5243250803264832749}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
