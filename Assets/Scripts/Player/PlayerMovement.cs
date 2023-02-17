@@ -5,7 +5,6 @@ public class PlayerMovement : MonoBehaviour
 {
     private Camera _camera;
     private Rigidbody2D _rb;
-    private Transform _parent;
     private PlayerInput _action;
     private Vector2 _input, _mousePos;
 
@@ -23,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
         _camera = Camera.main;
         _action = new PlayerInput();
         _rb = GetComponent<Rigidbody2D>();
-        _parent = transform.parent;
     }
 
     void Update()
